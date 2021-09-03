@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score
 from sklearn.model_selection import KFold
+import numpy as np
 
 df = pd.read_csv("https://sololearn.com/uploads/files/titanic.csv")
 
